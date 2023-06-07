@@ -1,0 +1,58 @@
+body {
+	font-family: Verdana,sans-serif;
+	margin: 0 auto;
+}
+
+form {
+	border: none;
+	padding-top: l0px;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+input [type=text], input[type=password], input [type-date]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 12px solid #ccc;
+	box-sizing: border-box;
+}
+input[type=search]{
+	width: auto;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+}
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: auto;
+}button:hover{
+	opacity: 0.8;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+	ackground-color: red;
+}
+
+td {
+	background-color:red;
+}
+tr: nth-child(even) {background-color: #FF0000}
+
+th {
+	background-color: #eeee22;
+	color:white;
+}
